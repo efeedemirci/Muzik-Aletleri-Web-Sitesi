@@ -1,0 +1,9 @@
+<?php
+session_start();
+require_once("tema.php");
+head_ustkisim("Anasayfa");
+body_ustkisim();
+body_menukisim();
+body_ana_icerik();
+body_alt_kisim();
+?>
